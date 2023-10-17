@@ -37,7 +37,7 @@ function Absent({absent}) {
             <div className="inline-flex gap-x-1 items-center">
                 <span>{absent.name}</span>
                 <button onClick={() => removeAbsent(absent)}
-                        className="bg-[#D9D9D9] w-4 h-4 flex items-center justify-center rounded-full text-lg">
+                        className="bg-dark-grey w-4 h-4 flex items-center justify-center rounded-full text-lg">
                     <img src={Cross} className="w-2 h-2" />
                 </button>
             </div>
